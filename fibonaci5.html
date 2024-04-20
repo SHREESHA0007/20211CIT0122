@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+
+<html> 
+
+  <body> 
+
+    <h2>What Can JavaScript Do?</h2> 
+
+  
+
+    <p id="demo">JavaScript can change HTML content.</p> 
+
+    <button type="button"  
+
+onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'"> 
+
+        Click Me !!! 
+
+    </button>     
+
+    
+
+    <p id="date">Current Date</p> 
+
+    <button type="button"  
+
+onclick="document.getElementById('date').innerHTML = Date()"> 
+
+        Click Me for current Date !!! 
+
+    </button> 
+
+  </body> 
+
+  
+  <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+    ctx.stroke();
+    </script>
+
+</html> 
+
